@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9abeb78-5d86-41a7-8c5b-32bbc0c732f0">
+  <producedTypes>
+    <objectType typeId="9135109f-14b4-4096-8950-84841490dacc" valueTypeId="af40ef08-f26f-4860-b911-19dea6b7162e"/>
+    <refType typeId="c08c7a19-7d96-4b24-bcc7-7cea03226179" valueTypeId="051140ac-2a25-488f-80c5-5e4a88499d7d"/>
+    <selectionType typeId="4f5c7a1d-e5cb-40f4-9821-aed26ccbdbe5" valueTypeId="b26f3972-1eab-417f-a669-192b8fb0be93"/>
+    <listType typeId="dc352c4c-7b25-46f3-a5dc-5287791a7326" valueTypeId="816d7aab-ce6c-4e03-bf46-39bb548983c1"/>
+    <managerType typeId="807dfdfa-836e-40ed-b19f-a0847483fcd7" valueTypeId="2ded6e7a-0de1-4718-b20c-aa68f5020fd0"/>
+  </producedTypes>
+  <name>ТарифыХабов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы хабов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТарифыХабов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТарифыХабов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="82285e7f-3b4d-454e-81df-9ab99fe30001">
+    <name>От</name>
+    <synonym>
+      <key>ru</key>
+      <value>От</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb4eea36-fe8c-4565-b7b3-b16068047461">
+    <name>До</name>
+    <synonym>
+      <key>ru</key>
+      <value>До</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

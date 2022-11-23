@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dbee39d-96ae-4e9e-bfda-566abfe0c186">
+  <producedTypes>
+    <selectionType typeId="0ff7f2f6-a4b5-4fff-bf8d-874b4ca92edd" valueTypeId="b37f9638-268d-4eaa-96c7-e21ce6056435"/>
+    <listType typeId="dd136ef6-9f18-4459-85d8-df3694b237d1" valueTypeId="c5f243c5-9636-468e-91b7-ea09c3e06cf9"/>
+    <managerType typeId="34564fc9-fa0e-4829-81db-8a3d54785974" valueTypeId="7b6f9e58-13f5-4e4f-af36-84206568900b"/>
+    <recordSetType typeId="13449708-3681-4798-ba5c-79ec282eab89" valueTypeId="cadff65d-3aad-43c8-86a9-073142bfec35"/>
+    <recordKeyType typeId="6aef3484-7b46-4ec0-8bc6-b982c35f4175" valueTypeId="7c91cb81-b345-4a93-9910-bcd380c014bb"/>
+    <recordType typeId="3c40c17a-6f01-4120-a537-1594bb52c8b7" valueTypeId="08704a27-a43d-4125-b7b3-036d11936ca2"/>
+  </producedTypes>
+  <name>УслугиСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги сортировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="95fac0eb-e995-48c2-8d0a-13e54d4d4e09">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="2a24df2d-fe73-42af-a82d-fad3651e0eed">
+    <name>СуммаХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма хранение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="526a958e-fa35-4b65-bdd6-b17618f81523">
+    <name>СуммаОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма обработка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="f95b9082-5381-4cdf-ad00-ee49cc514be6">
+    <name>КоличествоПраздничныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество праздничные дни</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="561e91af-b99c-42fc-bc13-32d2149e3870">
+    <name>ТарифОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф обработка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="85cacea9-17a7-433d-8c98-ad29265b1b29">
+    <name>ТарифХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф хранение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="0421107d-7701-4b6f-8c06-d8edae1142fe">
+    <name>НомерГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер грузового места</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="181ac603-ce8a-4629-93a9-a1e1ec751806">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

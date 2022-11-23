@@ -39,4 +39,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Услуги</subsystems>
+  <commonModules>CommonModule.РегламентныеОперацииСервер</commonModules>
+  <catalogs>Catalog.ТарифыХабов</catalogs>
+  <documents>Document.УслугаСортировки</documents>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.ТипыГрузовыхМест</enums>
+  <reports>Report.ПоказателиУслугСортировки</reports>
+  <dataProcessors>DataProcessor.РасчетУслугСортировки</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифыОбработки</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифыХранения</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.УслугиСортировки</accumulationRegisters>
 </mdclass:Configuration>

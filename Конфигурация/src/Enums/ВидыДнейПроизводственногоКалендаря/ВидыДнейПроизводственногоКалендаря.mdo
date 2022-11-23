@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8e465cc-90ce-40a1-939a-c9e16fb7b2d3">
+  <producedTypes>
+    <refType typeId="587ef682-d6da-4cee-84db-cb0cc6c508c4" valueTypeId="96d8e146-272c-43bc-9080-35a90eb60045"/>
+    <listType typeId="db16f1bb-fa50-4d75-ac0f-b32bfe098f34" valueTypeId="c745a607-7815-42dc-9a2f-fe052d7500ba"/>
+    <managerType typeId="6eb71d2f-ce05-4a2d-8310-595649d51b77" valueTypeId="c67c9a30-ffca-4a53-a495-78b62a1b96a2"/>
+  </producedTypes>
+  <name>ВидыДнейПроизводственногоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дней производственного календаря</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b56a3b8-74d0-4418-a35d-a599ffb5a838">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a62b18f-d8c3-456e-a13e-99e4fffe2262">
+    <name>Выходной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d105c9b4-9673-4bad-839b-385fcb877c30">
+    <name>Праздничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Праздничный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

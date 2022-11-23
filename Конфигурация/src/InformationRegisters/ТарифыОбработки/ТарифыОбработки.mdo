@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4084c56f-2002-4894-92fb-8025f86dee16">
+  <producedTypes>
+    <selectionType typeId="d12bcbb6-7550-41f3-8fbb-124fabc37ffe" valueTypeId="d382da9c-4f16-414d-b554-0182ca772882"/>
+    <listType typeId="c4ff4b4c-c7a1-41a9-9f36-4cba4687e167" valueTypeId="b5985eb1-9a08-4ef2-92a5-c2a28d2aa816"/>
+    <managerType typeId="a7d539d2-48a6-4b4b-ba5b-ea78221b429a" valueTypeId="6f73dc8f-b3e4-47b0-8bf4-af3d6ec24afd"/>
+    <recordSetType typeId="b8bafd3b-ef76-45f3-8887-496ab1791b40" valueTypeId="fe084ec4-a294-4a3b-ac57-7c31664cf81c"/>
+    <recordKeyType typeId="bb15381b-aa3b-4cd0-a237-d6d098475a49" valueTypeId="94f872c4-2de6-4069-a25a-0659f577c282"/>
+    <recordType typeId="73824703-126c-4d48-9535-a5f47cb9d533" valueTypeId="be86e243-4054-4ed9-a472-815242b378e5"/>
+    <recordManagerType typeId="4c6ee332-a183-499f-b7ab-7f34d9f73bd1" valueTypeId="ae496f69-721e-4927-bb9c-859232f7e66f"/>
+  </producedTypes>
+  <name>ТарифыОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы обработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5ae979c9-6a86-44f0-9d9e-e5c035c8689b">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="05226870-0a47-4557-9605-81493a528f05">
+    <name>ТипГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип грузового места</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыГрузовыхМест</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="34162572-4bc9-4ca9-9da2-0495e2feaab3">
+    <name>ТарифХаба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф хаба</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТарифыХабов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

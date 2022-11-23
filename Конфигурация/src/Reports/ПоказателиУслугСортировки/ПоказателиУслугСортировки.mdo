@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40a88eb8-f4d7-4d10-808c-635e54c524e1">
+  <producedTypes>
+    <objectType typeId="b54c1236-4c1a-4b97-9f4c-a13542122cfe" valueTypeId="38536b00-a375-4297-8ce4-0724bbda1797"/>
+    <managerType typeId="9880f63f-96eb-41a3-98e1-62a335d77f87" valueTypeId="c02da68b-2927-4531-a47a-b2166c70fe1f"/>
+  </producedTypes>
+  <name>ПоказателиУслугСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели услуг сортировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПоказателиУслугСортировки.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="295ecd5f-cdfb-4571-8e63-932789cad398">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

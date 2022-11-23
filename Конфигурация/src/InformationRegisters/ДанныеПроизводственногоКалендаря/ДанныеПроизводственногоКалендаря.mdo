@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13edf00b-e24f-4a22-8aa5-add08aee3a85">
+  <producedTypes>
+    <selectionType typeId="547ff7cb-fa8e-4fd3-a3cf-896c45f128f0" valueTypeId="9ee59094-0d43-4674-83f2-918cbf120d14"/>
+    <listType typeId="f2e8b593-9881-4199-97c7-7dd7ce6406cb" valueTypeId="77adfda7-8c74-4ae5-8369-7e5d8a267dd2"/>
+    <managerType typeId="54e368f2-f379-478d-9f32-ad6104208d27" valueTypeId="c8e4e362-1587-4eb1-863f-dea30a650be5"/>
+    <recordSetType typeId="4531eed5-16f9-448f-ae89-b226ff446386" valueTypeId="54cc0878-6cc3-486c-b7fe-a834cdfed398"/>
+    <recordKeyType typeId="d0fc1149-b206-4245-923c-49c2e0684de0" valueTypeId="7e6a84f9-7a81-4e26-ac3d-381d5943bce4"/>
+    <recordType typeId="76cd34ad-bb7b-4c2c-ba33-8934fb0066c1" valueTypeId="01484fcf-023b-45d3-87f8-c5ce52f74a4b"/>
+    <recordManagerType typeId="68eaffc2-4134-4992-938e-f1cb437b0c61" valueTypeId="76e29c72-621c-4aca-9f42-3c7e9ad28304"/>
+  </producedTypes>
+  <name>ДанныеПроизводственногоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные производственного календаря</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="aa573692-bed8-44c7-bf59-5869d9f48ec1">
+    <name>ВидДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дня</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДнейПроизводственногоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="189450b8-37f4-4b9a-bde2-7d95df78b0a1">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

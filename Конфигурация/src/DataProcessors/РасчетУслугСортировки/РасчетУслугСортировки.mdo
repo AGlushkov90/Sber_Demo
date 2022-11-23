@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b28fc8d7-4464-4794-b240-fee0e05aecd8">
+  <producedTypes>
+    <objectType typeId="b11a62c0-dd65-48b0-8183-5f9376bf8ad3" valueTypeId="34f596c9-4f09-4945-b7b9-2c4497d9dc65"/>
+    <managerType typeId="dcc58aba-259f-4521-b71a-76fbe7179e38" valueTypeId="8d05c690-0b2e-413f-98f0-82705a17b17a"/>
+  </producedTypes>
+  <name>РасчетУслугСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет услуг сортировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасчетУслугСортировки.Form.Форма</defaultForm>
+  <forms uuid="5b8ef591-625a-45b7-8523-9011b9579327">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="568608d0-3b9f-412a-994b-46f81f04d40d">
+  <producedTypes>
+    <selectionType typeId="1719698d-9d51-46bc-b483-315d39c52255" valueTypeId="48f232b7-2410-4516-abd2-8236a91b22c5"/>
+    <listType typeId="220e8e50-8b50-4026-a5fa-7361008332c0" valueTypeId="0cadb27b-b36b-4012-9566-9cb04101955e"/>
+    <managerType typeId="d9a079d2-2bc9-499e-a08f-7a745712ed31" valueTypeId="cb2c2608-ccaf-4a88-9796-97beac6fbf10"/>
+    <recordSetType typeId="f09957cb-dc04-46c2-8800-e93353c98de8" valueTypeId="fb389329-5be7-41ed-985f-11f7f06f591c"/>
+    <recordKeyType typeId="5eea47ba-eb04-4c95-9106-faa09c2dd845" valueTypeId="bdcd893d-bb61-4d2b-8d52-16e5612dda46"/>
+    <recordType typeId="1610012a-6c0b-43a6-a7b4-c542af91f8d8" valueTypeId="efb45d6f-c953-4e4b-a41d-2bc64b4ae529"/>
+    <recordManagerType typeId="b0716274-6b4c-46ea-9e95-dd9a5acdccb0" valueTypeId="a171ff9f-735c-44f5-9da0-f545c33a419a"/>
+  </producedTypes>
+  <name>ТарифыХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d5854c99-3024-4091-ad55-a6e4b9a26501">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
